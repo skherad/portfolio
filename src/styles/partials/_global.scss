@@ -6,7 +6,11 @@
 	box-sizing: border-box;
 }
 body {
-    font-family: 'AvenirNext';
+    font-family: 'Lato';
     font-weight: 400;
     margin: 0;
+    color: $dark-color;
+}
+.link {
+    text-decoration: none;
 }
