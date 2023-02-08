@@ -1,0 +1,32 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 8rem;
+    &__title {
+        margin-bottom: 3rem;
+    }
+    &__text {
+        text-align: center;
+        margin: 0 0 3rem 0;
+    }
+    &__button {
+        @include button-light;
+    }
+}
+.about {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+        border-bottom: 2px solid $light-color;
+    }
+    &__text {
+        text-align: center;
+    }
+}
