@@ -1,0 +1,12 @@
+@use './variables' as *;
+@use './typography' as *;
+@use './mixins' as *;
+
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+body {
+    font-family: 'AvenirNext';
+    font-weight: 400;
+    margin: 0;
+}
