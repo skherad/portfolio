@@ -19,11 +19,11 @@
         padding: 2rem;
     }
     &__card {
-        background-color: white;
+        background-color: rgba(66, 66, 66, 0.9);
         margin-bottom: 1rem;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
         border-radius: 10px;
-        padding: 1rem;
+        padding: 1rem 0;
     }
     &__item {
         list-style: none;
@@ -34,5 +34,7 @@
     }
     &__name {
         text-align: center;
+        color: $background-color;
+        font-size: 1.25rem;
     }
 }

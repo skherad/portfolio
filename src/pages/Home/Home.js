@@ -7,9 +7,9 @@ const Home = () => {
         <section className='hero'>
             <h1 className='hero__title'>H E Y,&nbsp;&nbsp;&nbsp;&nbsp;I ' M&nbsp;&nbsp;&nbsp;&nbsp;S H A H R Z A D</h1>
             <p className='hero__text'>A former mechanical engineer turned developer focused on full stack development</p>
-            <button className='hero__button'>PROJECTS</button>
+            <a href="#projects" className='hero__button link'>PROJECTS</a>
         </section>
-        <section className='about' id="about">
+        <section className='about'  id="about">
             <h2 className='about__title'>A B O U T&nbsp;&nbsp;&nbsp;M E</h2>
             <div className='about__border'></div>
             <p className='about__text'>

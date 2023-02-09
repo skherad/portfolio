@@ -11,9 +11,9 @@ function App() {
       <Header />
       <Routes> 
         <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element=""></Route>
-        <Route path="/projects" element=""></Route>
-        <Route path="/contact" element=""></Route>
+        <Route path="/project-1" element=""></Route>
+        <Route path="/project-2" element=""></Route>
+        <Route path="/project-3" element=""></Route>
       </Routes>
       {/* <Footer /> */}
       </BrowserRouter>
