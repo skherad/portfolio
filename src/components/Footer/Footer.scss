@@ -1,4 +1,5 @@
 @use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
 
 .footer {
     display: flex;
@@ -9,6 +10,9 @@
     bottom: 1.5rem;
     height: 2.5rem;
     width: 100%;
+    @include tablet {
+        padding: 2rem 4rem;
+    }
     &__txt {
         font-size: 0.7rem;
         color: $dark-color;
@@ -17,6 +21,9 @@
         width: 30%;
         display: flex;
         justify-content: space-between;
+        @include tablet {
+            width: 20%;
+        }
     }
     &__icon {
         width: 40px;

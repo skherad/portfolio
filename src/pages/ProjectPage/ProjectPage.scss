@@ -7,16 +7,38 @@
     align-items: center;
     margin-top: 5rem;
     padding: 0 3rem 3rem 3rem;
+    @include tablet {
+        padding: 0 4rem;
+    }
+    &__title {
+        @include section-title;
+    }
+    &__border {
+        @include small-border;
+    }
     &__img {
+        margin-top: 3rem;
         width: 100%;
         margin-bottom: 2rem;
-        max-width: 400px;
+        
+        @include tablet {
+            width: auto;
+            max-height: 500px;
+            margin-bottom: 4rem;
+        }
     }
     &__btn {
         @include button-dark;
         margin-bottom: 1rem;
         width: 50%;
         max-width: 15rem;
+        @include tablet {
+            margin-bottom: 2rem;
+        }
+    }
+    &__sub {
+        margin: 0;
+        padding: 1rem 0;
     }
     &__skills {
         display: flex;
@@ -28,6 +50,9 @@
         @include button-dark;
         width: 30%;
         font-size: .75rem;
-        margin-bottom: 0.5rem;
+        margin: 1rem 0;
+        @include tablet {
+            width: 20%;
+        }
     }
 }
