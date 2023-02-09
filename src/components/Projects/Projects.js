@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 const Projects = () => {
   
   return (
-    <section className='project'>
+    <section className='project' id="projects">
         <h2 className='project__title'>P R O J E C T S</h2>
         <div className='project__border'></div>
         <ul className='project__container'>

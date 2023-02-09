@@ -9,8 +9,8 @@ const Header = () => {
             <img src={Logo} alt="SK Logo" className='header__logo'/>
         </Link>
         <nav className='header__nav'>
-            <Link to="/about" className='header__nav-item link'>About</Link>
-            <Link to="/projects" className='header__nav-item link'>Projects</Link>
+            <a href='#about' className='header__nav-item link'>About</a>
+            <a href="#projects" className='header__nav-item link'>Projects</a>
             <Link to="/Contact" className='header__nav-item link'>Contact</Link>
         </nav>
     </header>
