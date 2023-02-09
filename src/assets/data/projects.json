@@ -1,0 +1,23 @@
+[
+    {
+     "title": "Chefs Journal",
+     "desc": "Social media platform for foodies",
+     "tech": "JavaScript, React, Express, SQL",
+     "photo_url": "../../assets/media/ChefsJournal.png",
+     "video_url": "../../assets/media/chefsjournal.png"
+    },
+    {
+     "title": "BrainFlix",
+     "desc": "Streaming Platform",
+     "tech": "JavaScript, React",
+     "photo_url": "../../assets/media/BrainFlix.png",
+     "video_url": "../../assets/media/chefsjournal.png"
+    },
+    {
+     "title": "BandSite",
+     "desc": "Social media platform for foodies",
+     "tech": "JavaScript, HTML5, SCSS",
+     "photo_url": "../../assets/media/BandSite.png",
+     "video_url": "../../assets/media/chefsjournal.png"
+    }
+   ]
