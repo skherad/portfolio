@@ -1,5 +1,11 @@
 @use './variables' as *;
 
+@mixin tablet {
+    @media (min-width:$breakpoint-tablet) {
+        @content;
+    }
+}
+
 @mixin desktop {
     @media (min-width:$breakpoint-desktop) {
         @content;
@@ -25,4 +31,14 @@
     border: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-size: 1rem;
+}
+
+@mixin small-border {
+    border: 2px solid $light-color;
+    width: 1.875rem;
+}
+
+@mixin section-title {
+    margin: 0;
+    padding-bottom: 1rem;
 }

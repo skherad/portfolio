@@ -1,3 +1,4 @@
+import Projects from '../../components/Projects/Projects'
 import './Home.scss'
 
 const Home = () => {
@@ -8,14 +9,16 @@ const Home = () => {
             <p className='hero__text'>A former mechanical engineer turned developer focused on full stack development</p>
             <button className='hero__button'>PROJECTS</button>
         </section>
-        <section className='about'>
+        <section className='about' id="about">
             <h2 className='about__title'>A B O U T&nbsp;&nbsp;&nbsp;M E</h2>
+            <div className='about__border'></div>
             <p className='about__text'>
-                Check out some of my work in the Projects section.<br></br>
-                I'm open to Job opportunities where I can contribute, learn and grow. 
+                I'm a former mechanical engineer who tried many industries until I found my passion for coding.<br></br>
+                I'm open to job opportunities where I can contribute, learn and grow. 
                 If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
             </p>
         </section>
+        <Projects />
     </>
   )
 }
