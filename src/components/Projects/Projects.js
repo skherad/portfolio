@@ -11,7 +11,7 @@ const Projects = () => {
         <div className='project__border'></div>
         <ul className='project__container'>
            {Data.map(e =>
-                <Link to={`/project/${e.id}`} key={uuidv4()} className='project__card link'>
+                <Link to={`/projects/${e.id}`} key={uuidv4()} className='project__card link'>
                     <li className='project__item' 
                         style={{backgroundImage: `url(${e.photo_url})`}}
                     ></li>

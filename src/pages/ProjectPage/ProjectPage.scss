@@ -13,8 +13,10 @@
         max-width: 400px;
     }
     &__btn {
-        @include button-light;
+        @include button-dark;
         margin-bottom: 1rem;
+        width: 50%;
+        max-width: 15rem;
     }
     &__skills {
         display: flex;
