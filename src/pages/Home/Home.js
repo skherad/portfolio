@@ -8,7 +8,7 @@ const Home = () => {
         <section className='hero'>
             {/* <div className="hero__photo" alt='my photo' style={{backgroundImage: `url(${myPhoto})`}}></div> */}
             <h1 className='hero__title'>HEY, I'M SHAHRZAD</h1>
-            <p className='hero__sub'>You can call me Shaz - much easier!</p>
+            <p className='hero__sub'>Feel free to call me Shaz - much easier!</p>
             <p className='hero__text'>A former mechanical engineer turned developer focused on full stack development</p>
             <Link to="/projects" className='hero__button link'>PROJECTS</Link>
         </section>
