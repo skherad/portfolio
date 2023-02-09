@@ -1,4 +1,4 @@
-import Projects from '../../components/Projects/Projects'
+import myPhoto from '../../assets/my_photo.jpg'
 import { Link } from 'react-router-dom'
 import './Home.scss'
 
@@ -6,12 +6,15 @@ const Home = () => {
   return (
     <>
         <section className='hero'>
-            <h1 className='hero__title'>H E Y,&nbsp;&nbsp;&nbsp;&nbsp;I ' M&nbsp;&nbsp;&nbsp;&nbsp;S H A H R Z A D</h1>
+            {/* <div className="hero__photo" alt='my photo' style={{backgroundImage: `url(${myPhoto})`}}></div> */}
+            <h1 className='hero__title'>HEY, I'M SHAHRZAD</h1>
+            <p className='hero__sub'>You can call me Shaz - much easier!</p>
             <p className='hero__text'>A former mechanical engineer turned developer focused on full stack development</p>
             <Link to="/projects" className='hero__button link'>PROJECTS</Link>
         </section>
         <section className='about'  id="about">
-            <h2 className='about__title'>A B O U T&nbsp;&nbsp;&nbsp;M E</h2>
+            <div className="about__photo" alt='my photo' style={{backgroundImage: `url(${myPhoto})`}}></div>
+            <h2 className='about__title'>ABOUT ME</h2>
             <div className='about__border'></div>
             <p className='about__text'>
                 I'm a former mechanical engineer who tried many industries until I found my passion for coding.<br></br>

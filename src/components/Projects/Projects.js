@@ -7,7 +7,7 @@ const Projects = () => {
 
   return (
     <section className='project' id="projects">
-        <h2 className='project__title'>P R O J E C T S</h2>
+        <h2 className='project__title'>PROJECTS</h2>
         <div className='project__border'></div>
         <ul className='project__container'>
            {Data.map(e =>
