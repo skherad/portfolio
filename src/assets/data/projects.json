@@ -2,8 +2,11 @@
     {
      "id": "1",
      "title": "Chefs Journal",
-     "desc": "Social media platform for foodies, Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut luctus dolor hendrerit, molestie elit nec, pretium nibh. Nunc ut orci congue urna lacinia auctor. Donec volutpat mauris id dolor dictum vulputate eget et turpis. Sed tempus massa a turpis scelerisque molestie. Donec feugiat lacus malesuada nulla fringilla mollis. Duis suscipit ex lobortis libero imperdiet, sit amet dignissim nisi laoreet. Proin enim est, vestibulum nec blandit et, consectetur id est. Sed eleifend libero neque, ac tincidunt massa aliquet eu. Nam arcu nibh, faucibus ut nulla et, maximus fermentum arcu.",
-     "tech": ["JavaScript", "React", "Express", "SQL"],
+     "desc": [
+        "Chefs Journal is inspired by my pandemic hobby, when I was creating recipes and shared them on Instagram. I created Chefs Journal as a social media platform for foodies and anyone who loves to cook. Users can create recipes, explore recipes and other user’s work of art, as well as connecting with them.",
+        "My goal was to push myself outside my comfort zone and build on the skills I learnt at BrainStation Bootcamp. I built this full stack web app using my skills on frontend and backend. Frontend was built using React, and SCSS for styling. Backend was built using Node and Express along with MySQL database. User authentication is done using Google OAuth and Passport. Deployed via hosting on Digital Ocean."
+     ],
+     "tech": ["JavaScript", "HTML5","React", "Express", "MySQL","SCSS","OAuth 2.0", "Passport", "Git", "GitHub", "Postman", "Figma","DigitalOcean"],
      "photo_url": "/media/ChefsJournal.png",
      "video_url": "/media/chefsjournal.png",
      "url": "https://chefsjournal.ca"
@@ -11,8 +14,11 @@
     {
      "id": "2",
      "title": "BrainFlix",
-     "desc": "Streaming Platform, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus dolor hendrerit, molestie elit nec, pretium nibh. Nunc ut orci congue urna lacinia auctor. Donec volutpat mauris id dolor dictum vulputate eget et turpis. Sed tempus massa a turpis scelerisque molestie. Donec feugiat lacus malesuada nulla fringilla mollis. Duis suscipit ex lobortis libero imperdiet, sit amet dignissim nisi laoreet. Proin enim est, vestibulum nec blandit et, consectetur id est. Sed eleifend libero neque, ac tincidunt massa aliquet eu. Nam arcu nibh, faucibus ut nulla et, maximus fermentum arcu.",
-     "tech": ["JavaScript", "React", "Express", "SQL"],
+     "desc": [
+        "A 3-sprint frontend project to build out a prototype for a new video streaming platform. Users can select videos to be played.",
+        "I built this responsive web app using React hooks such as useState, and useEffect. Axios was used to send requests to RESTful APIs. Project has been deployed using Netlify."
+     ],
+     "tech": ["JavaScript", "React","Figma" ,"REST API"],
      "photo_url": "/media/BrainFlix.png",
      "video_url": "/media/chefsjournal.png",
      "url": "https://brainflix-shaz.netlify.app/"
@@ -20,8 +26,10 @@
     {
      "id": "3",
      "title": "BandSite",
-     "desc": "Social media platform for foodies, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus dolor hendrerit, molestie elit nec, pretium nibh. Nunc ut orci congue urna lacinia auctor. Donec volutpat mauris id dolor dictum vulputate eget et turpis. Sed tempus massa a turpis scelerisque molestie. Donec feugiat lacus malesuada nulla fringilla mollis. Duis suscipit ex lobortis libero imperdiet, sit amet dignissim nisi laoreet. Proin enim est, vestibulum nec blandit et, consectetur id est. Sed eleifend libero neque, ac tincidunt massa aliquet eu. Nam arcu nibh, faucibus ut nulla et, maximus fermentum arcu.",
-     "tech": ["JavaScript", "React", "Express", "SQL"],
+     "desc": [
+        "A vanilla JavaScript website for an up-and-coming band."
+     ],
+     "tech": ["JavaScript", "HTML5", "SCSS", "Web API", "DOM", "Postman"],
      "photo_url": "/media/BandSite.png",
      "video_url": "/media/chefsjournal.png",
      "url": "https://bandsite-shaz.netlify.app/"
