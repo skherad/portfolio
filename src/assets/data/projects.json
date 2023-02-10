@@ -18,7 +18,7 @@
         "A 3-sprint frontend project to build out a prototype for a new video streaming platform. Users can select videos to be played.",
         "I built this responsive web app using React hooks such as useState, and useEffect. Axios was used to send requests to RESTful APIs. Project has been deployed using Netlify."
      ],
-     "tech": ["JavaScript", "React","Figma" ,"REST API"],
+     "tech": ["JavaScript", "React","Figma","REST API", "Postman", "Netlify"],
      "photo_url": "/media/BrainFlix.png",
      "video_url": "/media/chefsjournal.png",
      "url": "https://brainflix-shaz.netlify.app/"
@@ -29,7 +29,7 @@
      "desc": [
         "A vanilla JavaScript website for an up-and-coming band."
      ],
-     "tech": ["JavaScript", "HTML5", "SCSS", "Web API", "DOM", "Postman"],
+     "tech": ["JavaScript", "HTML5", "SCSS", "Web API", "DOM", "Postman", "Netlify"],
      "photo_url": "/media/BandSite.png",
      "video_url": "/media/chefsjournal.png",
      "url": "https://bandsite-shaz.netlify.app/"
