@@ -12,9 +12,9 @@ const Header = () => {
             <img src={Logo} alt="SK Logo" className='header__logo'/>
         </Link>
         <nav className='header__nav'>
-            <Link to="/" className='header__nav-item link'>Home</Link>
-            <Link to="/projects" className='header__nav-item link'>Projects</Link>
-            <Link to="/Contact" className='header__nav-item link'>Contact</Link>
+            <Link to="/" className='header__nav-item link' onClick={clickHandler}>Home</Link>
+            <Link to="/projects" className='header__nav-item link' onClick={clickHandler}>Projects</Link>
+            <Link to="/Contact" className='header__nav-item link' onClick={clickHandler}>Contact</Link>
         </nav>
     </header>
   )

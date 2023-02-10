@@ -9,6 +9,10 @@
     @include tablet {
         padding: 0 4rem;
     }
+    @include desktop {
+        margin-top: 10rem;
+        padding: 0 20rem; 
+    }
     &__title {
         @include section-title;
         align-self: center;

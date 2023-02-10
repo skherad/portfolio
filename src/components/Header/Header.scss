@@ -13,6 +13,9 @@
     @include tablet {
         padding: 1rem 3rem;
     }
+    @include desktop {
+        padding: 2rem 4rem;
+    }
     &__logo-box {
         display: flex;
         justify-content: space-between;
@@ -22,6 +25,10 @@
         margin-left: 1rem;
         width: 2.5rem;
         height: 2.5rem;
+        @include desktop {
+            width: 4rem;
+            height: 4rem;
+        }
     }
     &__nav-item {
         color: $dark-color;
@@ -29,5 +36,8 @@
         font-size: 1rem;
         font-weight: bold;
         font-style: italic;
+        @include desktop {
+            font-size: 1.5rem;
+        }
     }
 }

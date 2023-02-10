@@ -10,6 +10,10 @@
     @include tablet {
         padding: 0 4rem;
     }
+    @include desktop {
+        margin-top: 10rem;
+        padding: 0 20rem; 
+    }
     &__title {
         @include section-title;
     }
@@ -51,8 +55,11 @@
         width: 30%;
         font-size: .75rem;
         margin: 1rem 0;
+        background-color: rgba(66, 66, 66, 0.6);
+        box-shadow: none;
         @include tablet {
             width: 20%;
+            font-size: 1rem;
         }
     }
 }
