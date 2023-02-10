@@ -1,12 +1,12 @@
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import './ProjectPage.scss'
 import Data from '../../assets/data/projects.json'
 import { v4 as uuidv4 } from 'uuid';
 import AnimatedPage from '../../components/AnimatedPage/AnimatedPage';
 
 const ProjectPage = () => {
-  window.scrollTo(0, 0);
-
+    window.scrollTo(0, 0);
+    let navigate = useNavigate()
     const {projectId} = useParams()
     let project = Data.find(e=>e.id===projectId)
 
@@ -32,6 +32,7 @@ const ProjectPage = () => {
                   <div className='item__tech' key={uuidv4()}>{e}</div>
               )}
           </div>
+          <button onClick={() => navigate(-1)} className="item__back-btn">Go Back</button>
       </section>
       </AnimatedPage>
   )

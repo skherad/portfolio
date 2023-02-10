@@ -41,6 +41,9 @@
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border-radius: 5px;
         font-weight: 300;
+        &:focus {
+            border: 1px solid $dark-color;
+        }
         &--invalid {
             border: 1px solid $light-color;
             margin-bottom: 0;

@@ -1,4 +1,3 @@
-import { AnimatePresence } from 'framer-motion';
 import { BrowserRouter } from 'react-router-dom';
 import './App.scss';
 import AnimatedRoutes from './components/AnimatedRoutes/AnimatedRoutes';

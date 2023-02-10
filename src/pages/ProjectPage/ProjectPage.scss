@@ -37,14 +37,13 @@
     }
     &__btn {
         @include button-dark;
-        margin-bottom: 1rem;
         width: 50%;
         max-width: 15rem;
         @include tablet {
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
         }
         @include desktop {
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
             font-size: 1.5rem;
         }
         &:hover {
@@ -53,6 +52,7 @@
     }
     &__sub {
         margin: 0;
+        margin-top: 1rem;
         padding: 1rem 0;
         @include desktop {
             font-size: 1.8rem;
@@ -87,6 +87,18 @@
         }
         @include desktop {
             font-size: 1.2rem;
+        }
+    }
+    &__back-btn {
+        background-color: $background-color;
+        border: 1px solid $dark-color;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        margin-top: 2rem;
+        &:hover {
+            box-shadow: 0px 10px 13px -7px #000000, 1px 5px 22px 6px rgba(0,0,0,0);
         }
     }
 }
