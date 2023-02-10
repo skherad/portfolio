@@ -2,6 +2,8 @@ import myPhoto from '../../assets/my_photo.jpg'
 import { Link } from 'react-router-dom'
 import './Home.scss'
 import { v4 as uuidv4 } from 'uuid';
+import AnimatedPage from '../../components/AnimatedPage/AnimatedPage';
+import { motion } from 'framer-motion';
 
 const Home = () => {
   let skills = [
@@ -22,7 +24,7 @@ const Home = () => {
     window.scrollTo(0, 0);
   }
   return (
-    <>
+    <AnimatedPage>
         <section className='hero'>
             {/* <div className="hero__photo" alt='my photo' style={{backgroundImage: `url(${myPhoto})`}}></div> */}
             <h1 className='hero__title'>HEY, I'M SHAHRZAD</h1>
@@ -45,11 +47,16 @@ const Home = () => {
             <div className='about__border'></div>
             <ul className='about__tech-box'>
               {skills.map(e=>
-                <li className='about__tech' key={uuidv4()}>{e}</li>
+                <motion.li 
+                  className='about__tech' 
+                  key={uuidv4()}
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >{e}</motion.li>
               )}
             </ul>
         </section>
-    </>
+    </AnimatedPage>
   )
 }
 

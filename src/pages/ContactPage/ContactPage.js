@@ -1,6 +1,7 @@
 import './ContactPage.scss';
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
+import AnimatedPage from '../../components/AnimatedPage/AnimatedPage';
 
 const ContactPage = () => {
     const form = useRef()
@@ -33,6 +34,7 @@ const ContactPage = () => {
     }
 
   return (
+    <AnimatedPage>
     <form className='form' ref={form} onSubmit={submitHandler}>
         <h2 className='form__title'>CONTACT</h2>
         <div className='form__border'></div>
@@ -48,6 +50,7 @@ const ContactPage = () => {
         {invalidMsg && <p className='form__invalid'>please enter a valid msg</p>}
         <button className='form__btn' type='submit'>Submit</button>
     </form>
+    </AnimatedPage>
   )
 }
 

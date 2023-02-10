@@ -1,11 +1,10 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
+import { BrowserRouter } from 'react-router-dom';
 import './App.scss';
+import AnimatedRoutes from './components/AnimatedRoutes/AnimatedRoutes';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Projects from './components/Projects/Projects';
-import ContactPage from './pages/ContactPage/ContactPage';
-import Home from './pages/Home/Home';
-import ProjectPage from './pages/ProjectPage/ProjectPage';
+
 
 function App() {
   return (
@@ -14,12 +13,7 @@ function App() {
       <div className='body__container'>
         <div className='body__wrap'>
           <Header />
-          <Routes> 
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/projects" element={<Projects />}></Route>
-            <Route path="/projects/:projectId" element={<ProjectPage />}></Route>
-            <Route path="/contact" element={<ContactPage />}></Route>
-          </Routes>
+          <AnimatedRoutes />
         </div>
       <Footer />
       </div>

@@ -51,6 +51,9 @@
     &__button {
         @include button-light;
         font-weight: normal;
+        &:hover {
+            background-color: $dark-color;
+        }
     }
 }
 .about {

@@ -52,6 +52,10 @@
         font-size: 1rem;
         width: 200px;
         align-self: center;
+        &:hover {
+            background-color: $light-color;
+            cursor: pointer;
+        }
     }
     &__invalid {
         color: $light-color;

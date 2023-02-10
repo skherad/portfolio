@@ -2,10 +2,12 @@ import './Projects.scss';
 import Data from '../../assets/data/projects.json'
 import { v4 as uuidv4 } from 'uuid';
 import { Link } from 'react-router-dom';
+import AnimatedPage from '../AnimatedPage/AnimatedPage';
 
 const Projects = () => {
 
   return (
+    <AnimatedPage>
     <section className='project' id="projects">
         <h2 className='project__title'>PROJECTS</h2>
         <div className='project__border'></div>
@@ -20,6 +22,7 @@ const Projects = () => {
             )}
         </ul>
     </section>
+    </AnimatedPage>
   )
 }
 
