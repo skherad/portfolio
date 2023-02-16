@@ -15,7 +15,21 @@ const ProjectPage = () => {
       <section className='item'>
           <h2 className='item__title'>{project?.title}</h2>
           <div className='item__border'></div>
+          {!project?.demo &&
           <img src={project?.photo_url} className="item__img"></img>
+          }
+          {project?.demo &&
+            <div >
+                <iframe src={project?.demo} 
+                    frameBorder="0"
+                    webkitallowfullscreen="true" 
+                    mozallowfullscreen="true" 
+                    allowFullScreen={true} 
+                    className='item__demo' 
+                >
+                </iframe>
+            </div>
+          }
           <a href={project?.url} target="_blank" className='item__btn link'>Live Link</a>
           <h3 className='item__sub'>Project Overview</h3>
               {project?.desc.map(e=> 
@@ -26,18 +40,6 @@ const ProjectPage = () => {
             <a href={project?.url} target="_blank" className='item__txt item__txt--link'>live link</a>
             {/* ,&nbsp;or watching the demo. */}
           </p>
-          {project?.demo && 
-            <div 
-            // style="position: relative; padding-bottom: 62.5%; height: 0;"
-            >
-                <iframe src={project?.demo} 
-                    // frameBorder="0" 
-                    // webkitallowfullscreen="true" 
-                    // mozallowfullscreen="true" 
-                    // allowfullscreen="true" 
-                    // style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                ></iframe></div>
-          }
           <h3 className='item__sub'>Tools Used</h3>
           <div className='item__skills'>
               {project?.tech.map(e=>

@@ -35,6 +35,20 @@
             margin-bottom: 5rem;
         }
     }
+    &__demo {
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        @include tablet {
+            height: 25rem;
+            margin-bottom: 4rem;
+        }
+        @include desktop {
+            width: 56.25rem;
+            height: 37.5rem;
+            margin-bottom: 5rem;
+        }
+    }
     &__btn {
         @include button-dark;
         width: 50%;
