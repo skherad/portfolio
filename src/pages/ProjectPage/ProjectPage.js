@@ -36,9 +36,8 @@ const ProjectPage = () => {
                   <p className='item__txt' key={uuidv4()}>{e}</p>
               )}
           <p className='item__txt'>
-            Feel free to check out the Project by visiting the&nbsp; 
-            <a href={project?.url} target="_blank" className='item__txt item__txt--link'>live link</a>
-            {/* ,&nbsp;or watching the demo. */}
+            Feel free to check out the project by visiting the&nbsp; 
+            <a href={project?.url} target="_blank" className='item__txt item__txt--link'>live link.</a>
           </p>
           <h3 className='item__sub'>Tools Used</h3>
           <div className='item__skills'>
