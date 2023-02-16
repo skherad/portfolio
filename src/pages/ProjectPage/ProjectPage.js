@@ -26,10 +26,22 @@ const ProjectPage = () => {
             <a href={project?.url} target="_blank" className='item__txt item__txt--link'>live link</a>
             {/* ,&nbsp;or watching the demo. */}
           </p>
+          {project?.demo && 
+            <div 
+            // style="position: relative; padding-bottom: 62.5%; height: 0;"
+            >
+                <iframe src={project?.demo} 
+                    // frameBorder="0" 
+                    // webkitallowfullscreen="true" 
+                    // mozallowfullscreen="true" 
+                    // allowfullscreen="true" 
+                    // style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                ></iframe></div>
+          }
           <h3 className='item__sub'>Tools Used</h3>
           <div className='item__skills'>
-              {project?.tech.map(e=> 
-                  <div className='item__tech' key={uuidv4()}>{e}</div>
+              {project?.tech.map(e=>
+                <div className='item__tech' key={uuidv4()}>{e}</div>
               )}
           </div>
           <button onClick={() => navigate(-1)} className="item__back-btn">Go Back</button>

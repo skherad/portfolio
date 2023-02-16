@@ -9,7 +9,8 @@
      "tech": ["JavaScript", "HTML5","React", "Express", "MySQL","SCSS","OAuth 2.0", "Passport", "Git", "GitHub", "Postman", "Figma","DigitalOcean"],
      "photo_url": "/media/ChefsJournal.png",
      "video_url": "/media/chefsjournal.png",
-     "url": "https://chefsjournal.ca"
+     "url": "https://chefsjournal.ca",
+     "demo": "https://www.loom.com/embed/246a7c3542e84ed6b1cdb17ba9d84837"
     },
     {
      "id": "2",
