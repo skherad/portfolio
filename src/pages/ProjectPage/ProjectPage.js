@@ -24,7 +24,7 @@ const ProjectPage = () => {
           <p className='item__txt'>
             Feel free to check out the Project by visiting the&nbsp; 
             <a href={project?.url} target="_blank" className='item__txt item__txt--link'>live link</a>
-            ,&nbsp;or watching the demo.
+            {/* ,&nbsp;or watching the demo. */}
           </p>
           <h3 className='item__sub'>Tools Used</h3>
           <div className='item__skills'>
