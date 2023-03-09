@@ -34,5 +34,16 @@
      "photo_url": "/media/BandSite.png",
      "video_url": "/media/chefsjournal.png",
      "url": "https://bandsite-shaz.netlify.app/"
-    }
+    },
+    {
+      "id": "4",
+      "title": "Instock",
+      "desc": [
+         "A vanilla JavaScript website for an up-and-coming band."
+      ],
+      "tech": ["JavaScript", "HTML5", "SCSS", "Web API", "DOM", "Postman", "Netlify"],
+      "photo_url": "/media/BandSite.png",
+      "video_url": "/media/chefsjournal.png",
+      "url": "https://bandsite-shaz.netlify.app/"
+     }
    ]
