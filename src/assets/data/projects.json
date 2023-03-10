@@ -8,7 +8,6 @@
      ],
      "tech": ["JavaScript", "HTML5","React", "Express", "MySQL","SCSS","OAuth 2.0", "Passport", "Git", "GitHub", "Postman", "Figma","DigitalOcean"],
      "photo_url": "/media/ChefsJournal.png",
-     "video_url": "/media/chefsjournal.png",
      "url": "https://chefsjournal.ca",
      "demo": "https://www.loom.com/embed/246a7c3542e84ed6b1cdb17ba9d84837"
     },
@@ -21,29 +20,28 @@
      ],
      "tech": ["JavaScript", "React","Figma","REST API", "Postman", "Netlify"],
      "photo_url": "/media/BrainFlix.png",
-     "video_url": "/media/chefsjournal.png",
      "url": "https://brainflix-shaz.netlify.app/"
     },
     {
-     "id": "3",
+      "id": "3",
+      "title": "Instock",
+      "desc": [
+         "Team programming project, to deliver an Inventory Management System for a client by turning UX flows into proof-of-concept full stack web application.",
+         "Built using React, JavaScript and SCSS on the frontend, Node.js, Express, MySQL, Knex, and Postman on the backend.",
+         "Used Git/GitHub, JIRA, and Scrum methodology to manage our collaborative workflow, ensuring that our team is always in sync and delivering the best possible results."
+      ],
+      "tech": ["JavaScript", "HTML5", "SCSS", "Web API", "DOM", "Postman", "Netlify"],
+      "photo_url": "/media/InStock.png",
+      "url": "https://github.com/search?q=user%3Askherad+in-stock"
+     },
+    {
+     "id": "4",
      "title": "BandSite",
      "desc": [
         "A vanilla JavaScript website for an up-and-coming band."
      ],
      "tech": ["JavaScript", "HTML5", "SCSS", "Web API", "DOM", "Postman", "Netlify"],
      "photo_url": "/media/BandSite.png",
-     "video_url": "/media/chefsjournal.png",
      "url": "https://bandsite-shaz.netlify.app/"
-    },
-    {
-      "id": "4",
-      "title": "Instock",
-      "desc": [
-         "A vanilla JavaScript website for an up-and-coming band."
-      ],
-      "tech": ["JavaScript", "HTML5", "SCSS", "Web API", "DOM", "Postman", "Netlify"],
-      "photo_url": "/media/BandSite.png",
-      "video_url": "/media/chefsjournal.png",
-      "url": "https://bandsite-shaz.netlify.app/"
-     }
+    }
    ]
