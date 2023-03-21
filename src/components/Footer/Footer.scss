@@ -40,6 +40,7 @@
         height: 40px;
         background-position: center;
         background-size: contain;
+        background-repeat: no-repeat;
         @include desktop {
             width: 55px;
             height: 55px;   
