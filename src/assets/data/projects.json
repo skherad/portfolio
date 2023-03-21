@@ -43,5 +43,25 @@
      "tech": ["JavaScript", "HTML5", "SCSS", "Web API", "DOM", "Postman", "Netlify"],
      "photo_url": "/media/BandSite.png",
      "url": "https://bandsite-shaz.netlify.app/"
-    }
+    },
+     {
+      "id": "5",
+      "title": "CoffeeShop",
+      "desc": [
+         "My 2nd BrainStation project. Vanilla JavaScript and CSS, with some animation."
+      ],
+      "tech": ["JavaScript", "HTML5", "SCSS", "Web API", "DOM", "Postman", "Netlify"],
+      "photo_url": "/media/CoffeeShop.png",
+      "url": "https://CoffeeShop-shaz.netlify.app/"
+     },
+     {
+      "id": "6",
+      "title": "TravelSite",
+      "desc": [
+         "My very first BrainStation project. Vanilla JavaScript and CSS."
+      ],
+      "tech": ["JavaScript", "HTML5", "SCSS", "Web API", "DOM", "Postman", "Netlify"],
+      "photo_url": "/media/TravelSite.png",
+      "url": "https://TravelSite-shaz.netlify.app/"
+     }
    ]
