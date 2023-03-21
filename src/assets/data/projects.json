@@ -12,18 +12,7 @@
      "demo": "https://www.loom.com/embed/246a7c3542e84ed6b1cdb17ba9d84837"
     },
     {
-     "id": "2",
-     "title": "BrainFlix",
-     "desc": [
-        "A 3-sprint frontend project to build out a prototype for a new video streaming platform. Users can select videos to be played.",
-        "I built this responsive web app using React hooks such as useState, and useEffect. Axios was used to send requests to RESTful APIs. Project has been deployed using Netlify."
-     ],
-     "tech": ["JavaScript", "React","Figma","REST API", "Postman", "Netlify"],
-     "photo_url": "/media/BrainFlix.png",
-     "url": "https://brainflix-shaz.netlify.app/"
-    },
-    {
-      "id": "3",
+      "id": "2",
       "title": "Instock",
       "desc": [
          "Team programming project, to deliver an Inventory Management System for a client by turning UX flows into proof-of-concept full stack web application.",
@@ -34,6 +23,18 @@
       "photo_url": "/media/InStock.png",
       "url": "https://in-stock-shaz.netlify.app/"
      },
+    {
+     "id": "3",
+     "title": "BrainFlix",
+     "desc": [
+        "A 3-sprint frontend project to build out a prototype for a new video streaming platform. Users can select videos to be played.",
+        "I built this responsive web app using React hooks such as useState, and useEffect. Axios was used to send requests to RESTful APIs. Project has been deployed using Netlify."
+     ],
+     "tech": ["JavaScript", "React","Figma","REST API", "Postman", "Netlify"],
+     "photo_url": "/media/BrainFlix.png",
+     "url": "https://brainflix-shaz.netlify.app/"
+    },
+    
     {
      "id": "4",
      "title": "BandSite",
