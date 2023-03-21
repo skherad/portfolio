@@ -21,9 +21,12 @@
         margin: 0;
         letter-spacing: 6px;
         text-align: center;
+        padding-bottom: 3rem;
         @include tablet {
             font-size: 3rem;
             letter-spacing: 8px;
+            padding-bottom: 4rem;
+
         }
         @include desktop {
             font-size: 4rem; 
