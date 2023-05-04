@@ -18,9 +18,6 @@ const Home = () => {
             1000,
             "to call me Shaz",
             2000,
-            () => {
-              console.log("Sequence completed");
-            },
           ]}
           wrapper="span"
           cursor={true}
