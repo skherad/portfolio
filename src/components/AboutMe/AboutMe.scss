@@ -1,0 +1,40 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.about {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include tablet {
+        padding: 0 7rem;
+    }
+    @include desktop {
+        padding: 0 17rem;
+    }
+    &__title {
+        @include section-title;
+    }
+    &__border {
+        @include small-border;
+    }
+    &__text {
+        padding: 1rem 0;
+        text-align: center;
+        &--two {
+            margin-top: 0;
+        }
+        &--link {
+            color: $dark-color;
+        }
+    }
+    &__photo {
+        width: 150px;
+        height: 150px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+        margin-bottom: 2rem;
+    }
+    
+}

@@ -1,72 +1,73 @@
-@use '../../styles/partials/variables' as *;
-@use '../../styles/partials/mixins' as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
 
 .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  padding-top: 4.5rem;
+  @include desktop {
+    margin-top: 10rem;
+    padding-top: 8rem;
+  }
+  &__title {
+    @include section-title;
+  }
+  &__border {
+    @include small-border;
+  }
+  &__container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 5rem;
+    width: 100%;
+    padding: 2rem;
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2rem 4rem;
+      flex-wrap: wrap;
+    }
     @include desktop {
-        margin-top: 10rem;
+      padding: 4rem 6rem;
+    }
+  }
+  &__card {
+    background-color: rgba(66, 66, 66, 0.9);
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    border-radius: 10px;
+    padding: 2.5rem 0 1rem 0;
 
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30%;
+      margin-bottom: 3rem;
     }
-    &__title {
-        @include section-title;
+    &:hover {
+      box-shadow: 0px 10px 13px -7px #000000, 1px 5px 22px 6px rgba(0, 0, 0, 0);
     }
-    &__border {
-        @include small-border;
+  }
+  &__item {
+    list-style: none;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include tablet {
+      width: 80%;
     }
-    &__container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding: 2rem;
-        @include tablet {
-            flex-direction: row;
-            justify-content: space-between;
-            padding: 2rem 4rem;
-            flex-wrap: wrap;
-        }
-        @include desktop {
-            padding: 4rem 6rem;
-        }
+  }
+  &__name {
+    text-align: center;
+    color: $background-color;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    @include desktop {
+      font-size: 1.625rem;
+      letter-spacing: 4px;
     }
-    &__card {
-        background-color: rgba(66, 66, 66, 0.9);
-        margin-bottom: 1rem;
-        box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-        border-radius: 10px;
-        padding: 2.5rem 0 1rem 0;
-        
-        @include tablet {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 30%;
-            margin-bottom: 3rem;
-        }
-        &:hover {
-            box-shadow: 0px 10px 13px -7px #000000, 1px 5px 22px 6px rgba(0,0,0,0);
-        }
-    }
-    &__item {
-        list-style: none;
-        height: 200px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        @include tablet {
-            width: 80%;
-        }
-    }
-    &__name {
-        text-align: center;
-        color: $background-color;
-        font-size: 1.25rem;
-        letter-spacing: 2px;
-        @include desktop {
-            font-size: 1.625rem;
-            letter-spacing: 4px;
-        }
-    }
+  }
 }
